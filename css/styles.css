@@ -1,7 +1,3 @@
-body {
-  color: #212121;
-  background-color: #e5e5e5;
-}
 /* Цвет основного текста #212121; */
 /* Вторичный цвет текста #757575  */
 /* белый #FFFFFF */
@@ -9,3 +5,100 @@ body {
 /* цвет текста в футоре rgba(255, 255, 255, 0.6); */
 /* цвет фона #E5E5E5 */
 /* вторычный цвет фона #2F303A */
+
+/* ---------------MAIN--------------- */
+body {
+	color: #212121;
+	background-color: #e5e5e5;
+}
+ul {
+	list-style: none;
+}
+
+/* ---------------HEDER--------------- */
+.logo-web {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	color: #2196f3;
+}
+.logo-studio {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	color: #000000;
+}
+.header-nav {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: #212121;
+}
+.header-nav:hover {
+	color: #2196f3;
+}
+.header-contact {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: #757575;
+}
+.header-contact:hover {
+	color: #2196f3;
+}
+/* ----------------PAGE-STUDIO--------------------- */
+.main-preview {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.main-button {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.86;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+	background: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+.main-list {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+}
+.main-list-item {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 2;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
