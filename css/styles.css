@@ -1,15 +1,14 @@
-/* Цвет основного текста #212121; */
-/* Вторичный цвет текста #757575  */
-/* белый #FFFFFF */
-/* акцент #2196F3 */
-/* цвет текста в футоре rgba(255, 255, 255, 0.6); */
-/* цвет фона #E5E5E5 */
-/* вторычный цвет фона #2F303A */
+:root {
+	--primary-text-color: #212121;
+	--second-text-color: #757575;
+	--accent-color: #2196f3;
+}
 
-/* ---------------MAIN--------------- */
 body {
-	color: #212121;
+	color: var(--primary-text-color);
 	background-color: #e5e5e5;
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
 }
 ul {
 	list-style: none;
@@ -23,45 +22,39 @@ a {
 }
 .logo-web {
 	font-family: "Raleway";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.2;
-	color: #2196f3;
+	color: var(--accent-color);
 }
 .logo-studio {
 	font-family: "Raleway";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.2;
 	color: #000000;
 }
 .header-nav {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: #212121;
+	color: var(--primary-text-color);
 }
 .header-nav:hover,
 .header-nav:focus {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 .contact {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: #757575;
+	color: var(--second-text-color);
 }
 .contact:hover,
 .contact:focus {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 /* --------------------------PAGE-STUDIO------------------------ */
 
@@ -82,8 +75,6 @@ a {
 	background: #2f303a;
 }
 .main-preview {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -93,8 +84,6 @@ a {
 	color: #ffffff;
 }
 .main-button {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.86;
@@ -103,83 +92,59 @@ a {
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: #ffffff;
-	background: #2196f3;
+	background: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	cursor: pointer;
 }
 .main-list {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
-	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #212121;
+	color: var(--primary-text-color);
 }
 .main-list-item {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 2;
-	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--second-text-color);
 }
 .main-product {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
-	letter-spacing: 0.03em;
-
-	color: #212121;
+	color: var(--primary-text-color);
 }
 .main-team {
 	background: #f5f4fa;
 }
 .main-team-title {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17px;
-	color: #212121;
+	color: var(--primary-text-color);
 }
 .main-team-name {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 }
 .main-team-job {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
-	color: #757575;
+	color: var(--second-text-color);
 }
 /* -----------------------FOOTER--------------------------- */
 .footer {
 	background: #2f303a;
 }
 .footer-adress {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #ffffff;
 }
 .footer-contact {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.17;
 	color: rgba(255, 255, 255, 0.6);
@@ -194,37 +159,29 @@ a {
 }
 /* --------------------------PAGE-PORTFOLIO------------------------ */
 .btn {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
-	color: #212121;
+	color: var(--primary-text-color);
 	cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
 	color: #ffffff;
-	background-color: #2196f3;
+	background-color: var(--accent-color);
 }
 .progect {
-	font-family: "Roboto";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
-	color: #212121;
+	color: var(--primary-text-color);
+	letter-spacing: 0.06em;
 }
 .progect-desc {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.9;
-	color: #757575;
+	color: var(--second-text-color);
 }
