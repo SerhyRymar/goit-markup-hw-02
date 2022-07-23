@@ -73,7 +73,7 @@ a {
 }
 
 .main {
-	background: #2f303a;
+	background: var(--primary-white-color);
 }
 .main-preview {
 	font-weight: 900;
